@@ -1,1 +1,178 @@
 
+{
+  "schemaVersion": 1,
+  "system": {
+    "name": "Central Holiday Greeting System",
+    "enabled": true,
+    "defaultCountry": "NG",
+    "timezone": "Africa/Lagos",
+    "greetingsOnly": true,
+    "showOffers": false,
+    "showDiscounts": false,
+    "defaultDisplay": {
+      "placement": "home_top_below_header",
+      "style": "premium_seasonal_card",
+      "dismissible": true,
+      "preserveAppNavigation": true
+    }
+  },
+  "holidays": [
+    {
+      "id": "new-year",
+      "name": "New Year's Day",
+      "message": "Happy New Year",
+      "subtitle": "May the year ahead bring joy, peace and beautiful moments.",
+      "start": "01-01",
+      "end": "01-03",
+      "theme": "midnight_gold",
+      "artwork": null
+    },
+    {
+      "id": "valentines-day",
+      "name": "Valentine's Day",
+      "message": "Happy Valentine's Day",
+      "subtitle": "Wishing you a day filled with love and beautiful moments.",
+      "start": "02-14",
+      "end": "02-15",
+      "theme": "ruby_rose",
+      "artwork": null
+    },
+    {
+      "id": "international-womens-day",
+      "name": "International Women's Day",
+      "message": "Happy International Women's Day",
+      "subtitle": "Celebrating the strength, brilliance and achievements of women.",
+      "start": "03-08",
+      "end": "03-09",
+      "theme": "violet_gold",
+      "artwork": null
+    },
+    {
+      "id": "eid-al-fitr",
+      "name": "Eid al-Fitr",
+      "message": "Eid Mubarak",
+      "subtitle": "Wishing you peace, happiness and blessings.",
+      "start": null,
+      "end": null,
+      "dateMode": "lunar_manual",
+      "theme": "emerald_gold",
+      "artwork": null
+    },
+    {
+      "id": "easter",
+      "name": "Easter",
+      "message": "Happy Easter",
+      "subtitle": "Wishing you hope, peace and renewed joy.",
+      "start": null,
+      "end": null,
+      "dateMode": "annual_manual",
+      "theme": "spring_gold",
+      "artwork": null
+    },
+    {
+      "id": "mothers-day",
+      "name": "Mother's Day",
+      "message": "Happy Mother's Day",
+      "subtitle": "Celebrating the love and care that make life beautiful.",
+      "start": null,
+      "end": null,
+      "dateMode": "country_specific_manual",
+      "theme": "blush_gold",
+      "artwork": null
+    },
+    {
+      "id": "eid-al-adha",
+      "name": "Eid al-Adha",
+      "message": "Eid Mubarak",
+      "subtitle": "May your celebration bring peace, generosity and blessings.",
+      "start": null,
+      "end": null,
+      "dateMode": "lunar_manual",
+      "theme": "emerald_gold",
+      "artwork": null
+    },
+    {
+      "id": "fathers-day",
+      "name": "Father's Day",
+      "message": "Happy Father's Day",
+      "subtitle": "Celebrating the care, guidance and strength of fathers.",
+      "start": null,
+      "end": null,
+      "dateMode": "country_specific_manual",
+      "theme": "navy_gold",
+      "artwork": null
+    },
+    {
+      "id": "halloween",
+      "name": "Halloween",
+      "message": "Happy Halloween",
+      "subtitle": "Wishing you a night of mystery, magic and fun.",
+      "start": "10-31",
+      "end": "11-01",
+      "theme": "midnight_orange",
+      "artwork": null
+    },
+    {
+      "id": "black-friday",
+      "name": "Black Friday",
+      "message": "Happy Black Friday",
+      "subtitle": "Wishing you a wonderful day filled with beautiful moments.",
+      "start": null,
+      "end": null,
+      "dateMode": "annual_manual",
+      "theme": "black_gold",
+      "artwork": null,
+      "offersEnabled": false,
+      "discountsEnabled": false
+    },
+    {
+      "id": "christmas",
+      "name": "Christmas",
+      "message": "Merry Christmas",
+      "subtitle": "May your season be filled with warmth, wonder and beautiful moments.",
+      "footer": "CELEBRATE THE SEASON",
+      "start": "12-24",
+      "end": "12-27",
+      "theme": "christmas_glamour",
+      "artwork": null,
+      "lettering": {
+        "colors": ["red", "emerald_green", "gold"],
+        "effect": "festive_glow",
+        "highContrast": true
+      }
+    },
+    {
+      "id": "boxing-day",
+      "name": "Boxing Day",
+      "message": "Happy Boxing Day",
+      "subtitle": "Wishing you a relaxing day filled with warmth and joy.",
+      "start": "12-26",
+      "end": "12-27",
+      "theme": "midnight_gold",
+      "artwork": null
+    }
+  ],
+  "appThemes": {
+    "ZenWalls": {
+      "background": "amoled_black",
+      "accent": "gold",
+      "cardStyle": "premium_seasonal_card"
+    },
+    "LUMORA": {
+      "background": "app_default",
+      "accent": "holiday_adaptive",
+      "cardStyle": "premium_beauty"
+    },
+    "Nailora": {
+      "background": "app_default",
+      "accent": "holiday_adaptive",
+      "cardStyle": "premium_nail_art"
+    },
+    "default": {
+      "background": "app_default",
+      "accent": "holiday_adaptive",
+      "cardStyle": "premium_seasonal_card"
+    }
+  }
+    }
+      
